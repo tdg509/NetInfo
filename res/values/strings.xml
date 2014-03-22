@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NetInfo</string>
+    <string name="action_settings">Settings</string>
+    <string name="networkname">Network name</string>
+    <string name="country">Country</string>
+    <string name="operatorcode">Network code</string>
+    <string name="network_type">Network type</string>
+    <string name="phone_type">Phone type</string>
+    <string name="lac">LAC</string>
+    <string name="cid">CID</string>
+    <string name="signal_strength">Signal strength</string>
+    <string name="phone_state">Phone state</string>
+    <string name="record">Record data</string>
+    <string name="start">Start record</string>
+    <string name="stop">Stop record</string>
+    <string name="idle">Idle</string>
+    <string name="ringing">Ringing</string>
+    <string name="offhook">Off hook</string>
+    <string name="show">File menu</string>
+    <string name="menu_settings">settings</string>
+    <string name="title_activity_file_list">FileListActivity</string>
+    <string name="title_activity_file_viewer">FileViewer</string>
+
+</resources>

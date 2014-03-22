@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/background_color"
+        android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/network_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/networkname"
+        android:textColor="@color/text_color"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/network_name_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/text_color"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/network_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/network_name"
+        android:text="@string/operatorcode"
+        android:textColor="@color/text_color"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/network_code_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/network_name_data"
+        android:textColor="@color/text_color"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/network_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/network_code"
+        android:text="@string/network_type"
+        android:textColor="@color/text_color"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/network_type_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/network_code_data"
+        android:textColor="@color/text_color"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/lac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/network_type"
+        android:text="@string/lac"
+        android:textColor="@color/text_color"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/lac_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/network_type_data"
+        android:textColor="@color/text_color"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/cid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lac"
+        android:text="@string/cid"
+        android:textColor="@color/text_color"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/cid_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/lac_data"
+        android:textColor="@color/text_color"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/signal_strength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cid"
+        android:text="@string/signal_strength"
+        android:textColor="@color/text_color"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/signal_strength_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/cid_data"
+        android:textColor="@color/text_color"
+        android:textSize="20sp" />
+
+</RelativeLayout>
+
+</LinearLayout>
